@@ -30,7 +30,7 @@ requirement.txt
 使用 torch.no_grad() 確保在翻譯時不計算梯度。透過迴圈對測試資料中的每一個中文文本進行翻譯。將每個中文文本轉換為模型可以接受的格式（PyTorch 張量），然後使用 model.generate() 進行翻譯，得到對應的英文文本。最後，使用分詞器的 decode 方法將索引轉換為文本，並將翻譯結果存儲在 predictions 這個列表中。  
 ![image](https://github.com/312513016-morrisWW/main/assets/145111464/5bfa7755-423d-4ded-bcae-628fffd5123a)  
 將結果輸出至sub.csv
-##心得及相關討論
+## 心得及相關討論
 這次作業相對簡單，讓我深入了解了神經機器翻譯模型的微調和應用。通過使用transformer，我們能夠輕鬆地使用預訓練的模型來進行翻譯任務，並且進行進一步的微調，以提高模型在特定任務上的表現。  
 
 
