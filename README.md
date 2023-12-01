@@ -3,7 +3,7 @@
 ## 內附檔案
 trainex.py:訓練程式檔  
 testex.py:測試程式檔  
-fine_tuned_translation_model.pth:訓練好的模型  
+fine_tuned_translation_model.pth:訓練好的模型(檔案太大無法上傳)  
 requirement.txt
 採用現有的中翻英模型(Helsinki-NLP/opus-mt-zh-en)進行fine-tuned  
 ## 程式碼內容
